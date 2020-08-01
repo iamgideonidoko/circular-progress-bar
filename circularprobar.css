@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(237, 115, 199), rgb(255, 87, 152));
+    font-size: 1.6rem;
+    font-family: verdana, Helvetica, arial, sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(135deg, rgb(237, 115, 199), rgb(255, 87, 152));
+    height: 100%;
+    overflow-y: hidden;
+    max-height: 100%;
+}
+
+.wrapper {
+	text-align: center;
+    background: white;
+    padding: 1rem;
+    border: 3px solid black;
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px 1px black;
+}
+
+.header-txt {
+    font-size: 2.7rem;
+}
+
+.stat {
+    stroke: #ccc;
+    stroke-width: 14;
+    fill: transparent;
+}
+
+.load {
+    fill: url(#Gradient);
+    stroke: url(#Gradient);
+    fill-opacity: 0;
+    stroke-width: 14;
+    stroke-dasharray: 628;
+    stroke-linecap: round;
+    stroke-dashoffset: 200;
+    transition: all 0.3s linear;
+}
+
+
+.num {
+    font-size: 60px;
+    fill: url(#Gradient);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.enter-text {
+    transform: translateY(-1.5rem);
+    font-weight: 500;
+}
+
+.input-box {
+    text-align: center;
+    width: 5rem;
+    height: 3rem;
+    font-family: monospace;
+    position: relative;
+    border: 1px solid rgba(255, 87, 152, 0.7);
+    outline: none;
+}
+
+.input-box:focus {
+	border: 1px solid rgba(255, 87, 152, 1);
+}
+
+.add-error {
+	border: 1px solid red;
+    box-shadow: 0px 0px 1px 1px red;
+}
