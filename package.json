@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/IGIfeanyichukwu/circular-progress-bar.git"
   },
-  "author": "Ifex",
-  "license": "ISC",
+  "author": "I. G Ifeanyichukwu <if3cofr3sh@gmail.com> (Ifex)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IGIfeanyichukwu/circular-progress-bar/issues"
   },
