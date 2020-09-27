@@ -1,0 +1,22 @@
+{
+  "name": "circular-progress-bar",
+  "version": "1.0.0",
+  "description": "for display circular progress",
+  "main": "circularprobar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGIfeanyichukwu/circular-progress-bar.git"
+  },
+  "author": "Ifex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IGIfeanyichukwu/circular-progress-bar/issues"
+  },
+  "homepage": "https://github.com/IGIfeanyichukwu/circular-progress-bar#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
