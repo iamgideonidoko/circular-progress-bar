@@ -4,7 +4,7 @@
   "description": "for display circular progress",
   "main": "circularprobar.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"  
   },
   "repository": {
     "type": "git",
@@ -12,10 +12,10 @@
   },
   "author": "I. G Ifeanyichukwu <if3cofr3sh@gmail.com> (Ifex)",
   "license": "MIT",
+  "homepage": "https://IGIfeanyichukwu.github.io/circular-progress-bar",
   "bugs": {
     "url": "https://github.com/IGIfeanyichukwu/circular-progress-bar/issues"
   },
-  "homepage": "https://github.com/IGIfeanyichukwu/circular-progress-bar#readme",
   "dependencies": {
     "gh-pages": "^3.1.0"
   }
