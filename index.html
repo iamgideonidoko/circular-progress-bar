@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="circularprobar.css">
+</head>
+
+<body id="body">
+    <div class="container">
+       <div class="wrapper">
+        <h1 class="header-txt">Circular Progress Bar</h1>
+        <div class="progress-bar-wrapper">
+            <svg width="300" height="200" viewBox="0 0 300 300">
+                <defs>
+                    <linearGradient id="Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="rgb(237, 115, 199)" />
+                        <stop offset="100%" stop-color="rgb(255, 87, 152)" />
+                    </linearGradient>
+                </defs>
+
+                <circle class="stat" cx="150" cy="150" r="100" />
+                <circle class="load" cx="150" cy="150" r="100" transform="rotate(-90 150 150)" />
+                <text class="num" stroke-width="3" x="150" y="55%" text-anchor="middle"></text>
+            </svg>
+        </div>
+        <h5 class="enter-text">Enter Percentage(0-100%)</h5>
+
+        <input type="text" id="input-box" maxlength="3" value="0" class="input-box">
+        </div>
+
+    </div>
+    <script src="circularprobar.js" defer></script>
+</body>
+
+</html>
